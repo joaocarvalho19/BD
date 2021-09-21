@@ -1,0 +1,59 @@
+-- Ex 5.1
+
+
+
+-- a)
+
+
+-- temp=πDnum,Pname (project ⨝Dnum=Dnumber department)
+-- π Pname,Ssn,Fname (temp ⨝Dnum=Dno employee)
+
+
+-- b)
+
+
+-- temp1 = πFname,Ssn (σ Fname = 'Carlos' and Minit='D' and Lname='Gomes' (employee))
+-- temp11= Super_name←Fname (temp1)
+-- π Super_name (employee ⨝Super_ssn=Ssn temp11 )
+
+
+
+-- c)
+
+
+--  π Pno,Essn,Hours (works_on ⨝Essn=Ssn employee)
+-- cada?
+
+
+-- d)
+
+
+-- temp3 = π Pno,Essn,Hours (works_on ⨝Essn=Ssn employee)
+-- temp4 = π Pname,Essn,Hours,Dnum (temp3 ⨝Pno=Pnumber project)
+-- temp5=σ Pname='Aveiro Digital' (temp4)
+-- π Fname,Pname,Dnum,Hours (temp5 ⨝Essn=Ssn employee)
+
+
+-- e)
+
+-- temp10=π Fname,Essn (works_on ⟗Essn=Ssn employee)
+-- σ Essn = null (temp10)
+
+-- f) 
+
+
+-- temp6 = π Dname,Mgr_ssn,Sex,Salary (employee ⨝Dno=Dnumber department)
+
+-- temp7 = σ Sex='F' (temp6)
+
+-- γ Sex;salMedia←avg(Salary) (temp7)
+
+-- g)
+
+-- temp8 = π Fname,Ssn,Dependent_name (dependent ⨝Essn=Ssn employee)
+-- temp9 = γ Ssn; depCount←count(Ssn) (temp8)
+-- σ depCount=2 (temp9)
+
+-- h)
+
+

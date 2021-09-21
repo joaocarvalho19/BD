@@ -1,0 +1,17 @@
+-- Exercicio 5.3
+-- a)
+-- π numUtente (paciente) - π numUtente (prescricao)
+
+-- b)
+-- γ especialidade;count(especialidade)->numeroPrescricoes (σ farmacia ≠ null (medico ⨝ numSNS = numMedico prescricao))
+
+-- c)
+-- γ nome;count(nome)->numeroPrescricoes (σ farmacia ≠ null (farmacia ⨝ nome = farmacia prescricao))
+
+-- d)
+-- σ numPresc = null (σ numRegFarm = 906 (farmaco) ⟕ nome = nomeFarmaco σ numRegFarm = 906 (presc_farmaco))
+
+-- e)
+
+-- f)
+-- γ numMedico;count(numMedico)->numeroPresc (paciente ⨝ prescricao) --incompleto

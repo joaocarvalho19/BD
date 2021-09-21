@@ -1,0 +1,26 @@
+﻿-- Ex. 5.2
+
+-- a)
+
+-- temp = fornecedor ⟕(nif = fornecedor) encomenda
+-- σ numero = null (temp)
+
+
+-- (b)
+
+
+-- γ codProd; numUnidades←avg(unidades) item
+
+
+
+-- (c) número de unidades?
+
+
+-- γ numEnc; numUnidades←sum(unidades) item
+
+
+-- (d)  
+-- ???
+
+
+

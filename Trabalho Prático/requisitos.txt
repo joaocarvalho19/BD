@@ -1,0 +1,12 @@
+- A loja de animais comercializa produtos, separados por categorias, e animais, separados por espécies;
+- Deve se saber a cada momento o número de unidades de cada produto e animal na loja;
+- Um fornecedor pode fornecer uma ou varias encomendas;
+- Um animal é caracterizado pelo preço, género, nome, descrição, um ID e idade;
+- Um produto é caraterizado pelo ID, preço e descrição;
+- Um animal divide-se em tipo de animal, caracterizado por uma espécia, podendo esta ser Gato, Cão, Roedor, Ave, Peixe ou Réptil;
+- Um produto divide-se em tipo de produto, caracterizado por uma categoria;
+- Um fornecedor pode fornecer uma ou várias encomendas, efetuadas pelo funcionário, e é caracterizado pelo nome, NIF, morada e telemóvel;
+- Um funcionário é caracterizado pelo nome, telemóvel, ID e morada;
+- Um funcionário supervisiona os outros;
+- Há dois tipos de funcionários: o que trata dos animais e o que é responsável pelas compras dos clientes;
+- Um cliente pode comprar produtos e animais;
